@@ -1,0 +1,13 @@
+package com.finverse;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class FinverseApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FinverseApplication.class, args);
+	}
+
+}
