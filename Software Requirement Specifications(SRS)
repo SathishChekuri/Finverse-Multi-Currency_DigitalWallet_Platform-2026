@@ -1,0 +1,235 @@
+# Software Requirements Specification (SRS)
+
+# FinVerse - Multi-Currency Digital Wallet Platform
+
+Version: 1.0
+
+Author: Sathish Chekuri
+
+---
+
+# 1. Introduction
+
+## 1.1 Project Overview
+
+FinVerse is a full-stack multi-currency digital wallet platform developed using Spring Boot, React, and MySQL.
+
+The application enables users to securely manage digital wallets, maintain balances in multiple currencies, transfer money between FinVerse users, add funds from linked bank accounts, and withdraw funds back to their linked bank accounts through simulated financial transactions.
+
+The project is being developed to understand enterprise-level backend architecture, REST API development, secure authentication, database design, and full-stack application development.
+
+---
+
+# 2. Objectives
+
+* Build a secure digital wallet platform.
+* Support multiple currencies within a single wallet.
+* Simulate real-world payment workflows.
+* Follow industry-standard backend architecture.
+* Learn Spring Boot and React through practical implementation.
+
+---
+
+# 3. Scope
+
+The application allows users to:
+
+* Register and Login
+* Manage Profile
+* Create Wallet
+* Maintain Multi-Currency Balances
+* Link Multiple Bank Accounts
+* Add Money (Simulation)
+* Withdraw Money (Simulation)
+* Transfer Money Between FinVerse Users
+* View Transaction History
+* Receive Notifications
+* View Spending Analytics
+
+Administrators can:
+
+* Manage Users
+* Freeze/Unfreeze Wallets
+* Approve KYC
+* View Transactions
+* Manage Exchange Rates
+
+---
+
+# 4. Technology Stack
+
+## Backend
+
+* Java 21
+* Spring Boot
+* Spring Security
+* Spring Data JPA
+* Hibernate
+* JWT
+
+## Frontend
+
+* React
+* Tailwind CSS
+
+## Database
+
+* MySQL
+
+## Tools
+
+* Maven
+* Git
+* GitHub
+* Postman
+* Docker
+* Swagger
+
+---
+
+# 5. User Roles
+
+## User
+
+* Register
+* Login
+* Manage Profile
+* Manage Wallet
+* Link Bank Accounts
+* Add Money
+* Withdraw Money
+* Transfer Money
+* Convert Currency
+* View Transactions
+
+## Admin
+
+* Manage Users
+* Freeze Wallets
+* Unfreeze Wallets
+* Approve KYC
+* Manage Exchange Rates
+* View Reports
+
+---
+
+# 6. Functional Requirements
+
+## Authentication
+
+* User Registration
+* User Login
+* Forgot Password
+* OTP Verification
+* JWT Authentication
+
+## Wallet
+
+* Create Wallet
+* View Wallet
+* Multi-Currency Balance
+
+## Bank
+
+* Link Bank Account
+* Remove Bank Account
+* Set Default Bank
+
+## Transactions
+
+* Add Money
+* Withdraw Money
+* Transfer Money
+* View Transaction History
+
+## Currency
+
+* Manage Supported Currencies
+* Currency Conversion
+
+## Notifications
+
+* Payment Notifications
+* Wallet Notifications
+
+## Admin
+
+* Dashboard
+* User Management
+* Wallet Management
+* Reports
+
+---
+
+# 7. Non-Functional Requirements
+
+* Secure Authentication
+* Data Validation
+* RESTful API Design
+* Layered Architecture
+* ACID Transactions
+* Exception Handling
+* Scalability
+* Maintainability
+
+---
+
+# 8. System Architecture
+
+Frontend (React)
+
+↓
+
+REST APIs
+
+↓
+
+Spring Boot
+
+↓
+
+Service Layer
+
+↓
+
+Repository Layer
+
+↓
+
+MySQL Database
+
+---
+
+# 9. Database Modules
+
+* User
+* Wallet
+* WalletBalance
+* Currency
+* BankAccount
+* Transaction
+* OTP
+* Notification
+* KYC
+* Admin
+
+---
+
+# 10. Future Enhancements
+
+* QR Code Payments
+* Bill Payments
+* Reward System
+* Scheduled Transfers
+* Email Notifications
+* Docker Deployment
+* Cloud Deployment
+* Mobile Application
+
+---
+
+# 11. Developer
+
+Sathish Chekuri
+
+B.Tech Computer Science & Engineering
