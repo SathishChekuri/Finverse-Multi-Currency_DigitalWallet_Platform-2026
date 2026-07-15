@@ -12,7 +12,7 @@ Author: Sathish Chekuri
 
 ## 1.1 Project Overview
 
-FinVerse is a full-stack multi-currency digital wallet platform developed using Spring Boot, React, and MySQL.
+FinVerse is a full-stack multi-currency digital wallet platform developed using Spring Boot, React and MySQL.
 
 The application enables users to securely manage digital wallets, maintain balances in multiple currencies, transfer money between FinVerse users, add funds from linked bank accounts and withdraw funds back to their linked bank accounts through simulated financial transactions.
 
