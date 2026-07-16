@@ -1,15 +1,45 @@
-# 💳 FinVerse - Payment Application
+# 💳 FinVerse - Multi-Currency Digital Wallet Platform
 
-A full-stack payment application built using **Spring Boot**, **React**, and **MySQL**.
+A full-stack multi-currency digital wallet platform built using **Spring Boot**, **React** and **MySQL**.
 
-The application is designed to simulate digital payment services such as wallet management, money transfers, transaction history bank account management and other financial operations while following industry-standard backend architecture and REST API development practices.
+The application enables users to securely manage digital wallets, maintain balances in multiple currencies, transfer funds between FinVerse users, add money from linked bank accounts and withdraw money back to their banks through simulated financial transactions while following industry-standard backend architecture and REST API development practices.
 
 ## 🎯 Project Goal
 
 Build **FinVerse** in **30 days** by implementing one module at a time while learning backend development, system design, Spring Boot and full-stack application development.
+# 🚀 Development Roadmap
 
+- [x] Day 1 - Project Setup
+- [x] Day 2 - Database Design & User Entity
+- [ ] Day 3 - Wallet Module
+- [ ] Day 4 - Currency Management
+- [ ] Day 5 - Bank Account Module
+- [ ] Day 6 - Authentication (JWT)
+- [ ] Day 7 - User APIs
+- [ ] Day 8 - Wallet APIs
+- [ ] Day 9 - Money Transfer
+- [ ] Day 10 - Transaction History
+- [ ] Day 11 - Add Money
+- [ ] Day 12 - Withdraw Money
+- [ ] Day 13 - Notifications
+- [ ] Day 14 - Currency Conversion
+- [ ] Day 15 - KYC Module
+- [ ] Day 16 - Admin Dashboard
+- [ ] Day 17 - Fraud Detection
+- [ ] Day 18 - Analytics
+- [ ] Day 19 - QR Payments
+- [ ] Day 20 - Bill Payments
+- [ ] Day 21 - Rewards
+- [ ] Day 22 - Exception Handling
+- [ ] Day 23 - Global Validation
+- [ ] Day 24 - Testing
+- [ ] Day 25 - React Integration
+- [ ] Day 26 - Docker
+- [ ] Day 27 - Swagger Documentation
+- [ ] Day 28 - Deployment
+- [ ] Day 29 - Performance Optimization
+- [ ] Day 30 - Final Documentation
 ---
-
 # 🚀 Technology Stack
 
 ## Backend
@@ -44,7 +74,9 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 
 * User Management
 * Authentication & Authorization
-* Wallet Management
+* Multi-Currency Wallet Management
+* Currency Management
+* Currency Conversion
 * Bank Account Management
 * Money Transfer
 * Transaction History
@@ -54,9 +86,9 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 * Rewards & Cashback
 * Expense Analytics
 * Admin Dashboard
+* KYC Verification
 * Fraud Detection
 * Docker Deployment
-
 ---
 
 # 📅 Development Progress
@@ -100,16 +132,60 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 * ✅ Development environment is ready for feature implementation.
 
 ---
+## ✅ Day 2 - Database Design & User Entity
 
+### Completed Tasks
+
+* Designed the overall system architecture.
+* Planned the database schema for the application.
+* Identified core entities required for the project.
+* Designed relationships between User, Wallet, BankAccount, WalletBalance, Currency, Transaction, Notification, OTP, KYC and Admin.
+* Created the package structure following layered architecture.
+* Implemented the `User` entity.
+* Implemented `Role` and `AccountStatus` enums.
+* Configured Lombok to reduce boilerplate code.
+
+### Concepts Learned
+
+* Layered Architecture
+* Database Design
+* Entity Relationship Design
+* Primary Key
+* Auto Increment Strategy
+* JPA Entity Mapping
+* `@Entity`
+* `@Table`
+* `@Id`
+* `@GeneratedValue`
+* `@Column`
+* `@Enumerated`
+* Enum Design
+* Lombok
+* Builder Pattern
+* `@CreationTimestamp`
+* `@UpdateTimestamp`
+
+### Challenges Faced
+
+* Designed a scalable multi-currency wallet architecture.
+* Decided to separate User and Wallet responsibilities.
+* Designed the database to support multiple currencies without changing the schema.
+* Fixed enum configuration issues during development.
+
+### Project Status
+
+* ✅ User entity completed.
+* ✅ Database design finalized.
+* ✅ Project architecture established.
+* ✅ Ready to implement the Wallet module.
 
 # 📊 Current Status
 
-**Current Phase:** Project Setup
+**Current Phase:** Database Design & User Module
 
-**Progress:** **1 / 30 Days Completed (3%)**
+**Progress:** **2 / 30 Days Completed (7%)**
 
-**Next:** Database Design & User Module
-
+**Next:** Wallet Module & Entity Relationships
 ---
 
 ## 👨‍💻 Developer
