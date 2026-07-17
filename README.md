@@ -179,6 +179,40 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 * ✅ Project architecture established.
 * ✅ Ready to implement the Wallet module.
 
+  ## Day 3 - Wallet & Currency Module
+
+### Completed Tasks
+
+- Designed Wallet entity
+- Designed Currency entity
+- Designed WalletBalance entity
+- Implemented One-to-One relationship between User and Wallet
+- Implemented One-to-Many relationship between Wallet and WalletBalance
+- Implemented Many-to-One relationship between WalletBalance and Currency
+- Used BigDecimal for financial values
+- Added composite unique constraint on Wallet and Currency
+- Implemented wallet lifecycle using WalletStatus enum
+
+### Concepts Learned
+
+- One-to-One Relationship
+- One-to-Many Relationship
+- Many-to-One Relationship
+- @JoinColumn
+- mappedBy
+- Cascade
+- orphanRemoval
+- BigDecimal
+- Composite Unique Constraints
+- Database Normalization
+
+### Project Status
+
+- ✅ User Module Completed
+- ✅ Wallet Module Completed
+- ✅ Multi-Currency Design Completed
+- ✅ Ready to implement Bank Account Module
+
 # 📊 Current Status
 
 **Current Phase:** Database Design & User Module
