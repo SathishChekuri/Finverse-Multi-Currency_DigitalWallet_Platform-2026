@@ -13,9 +13,7 @@ import lombok.*;
 @Table(
     name = "wallet_balances",
     uniqueConstraints = {
-        @UniqueConstraint(
-            columnNames = {"wallet_id", "currency_id"}
-        )
+        @UniqueConstraint(columnNames = {"wallet_id", "currency_id"})
     }
 )
 @Getter
@@ -24,17 +22,25 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class WalletBalance {
-@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-private Long id;
-@Column(nullable = false, precision = 19, scale = 2)
-private BigDecimal balance;
-@ManyToOne
-@JoinColumn(name = "currency_id")
-private Currency currency;
-@CreationTimestamp
-private LocalDateTime createdAt;
 
-@UpdateTimestamp
-private LocalDateTime updatedAt;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(nullable = false, precision = 19, scale = 2)
+    private BigDecimal balance;
+
+    @ManyToOne
+    @JoinColumn(name = "wallet_id", nullable = false)
+    private Wallet wallet;
+
+    @ManyToOne
+    @JoinColumn(name = "currency_id", nullable = false)
+    private Currency currency;
+
+    @CreationTimestamp
+    private LocalDateTime createdAt;
+
+    @UpdateTimestamp
+    private LocalDateTime updatedAt;
 }

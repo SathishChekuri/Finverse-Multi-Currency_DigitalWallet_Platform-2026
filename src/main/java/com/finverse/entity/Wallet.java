@@ -31,7 +31,7 @@ private WalletStatus walletStatus;
 private BigDecimal dailyTransferLimit;
 @OneToOne
 @JoinColumn(name = "user_id", nullable = false, unique = true)
-private Users user;
+private User user;
 @CreationTimestamp
 private LocalDateTime createdAt;
 

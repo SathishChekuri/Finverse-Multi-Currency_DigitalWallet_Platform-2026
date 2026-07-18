@@ -2,6 +2,7 @@ package com.finverse.entity;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -21,7 +22,8 @@ import lombok.*;
 
 @Entity
 @Table(name = "users")
-public class Users {
+public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -51,6 +53,13 @@ public class Users {
 
     @Enumerated(EnumType.STRING)
     private AccountStatus status;
+
+    @OneToMany(
+            mappedBy = "user",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
+    private List<BankAccount> bankAccounts;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
