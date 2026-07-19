@@ -225,6 +225,33 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - Enum Mapping
 - Banking Module Design
 - Business Rule Design
+## ✅ Day 5 - Transaction Module
+
+### Completed Tasks
+
+- Created Transaction entity
+- Created TransactionType enum
+- Created TransactionStatus enum
+- Added transaction reference field
+- Implemented sender and receiver wallet relationships
+- Implemented currency relationship
+- Added transaction type and transaction status
+- Added transaction description
+- Added audit fields (createdAt & updatedAt)
+- Linked Wallet with sent and received transactions
+- Designed transaction lifecycle for Add Money, Withdraw, Transfer, Refund and Currency Conversion
+
+### Concepts Learned
+
+- Transaction Entity Design
+- Many-to-One Relationship
+- One-to-Many Relationship
+- Business Identifiers
+- Transaction Lifecycle
+- Financial Database Design
+- BigDecimal for Money
+- Enum Mapping
+- Audit Fields
 
 ### Project Status
 
@@ -232,13 +259,16 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - ✅ Wallet Module Completed
 - ✅ Currency Module Completed
 - ✅ Bank Account Module Completed
+- ✅ Transaction Module Completed
+
 # 📊 Current Status
 
-**Current Phase:** Bank Account Module
+**Current Phase:** Transaction Module
 
-**Progress:** **4 / 30 Days Completed (13%)**
+**Progress:** **5 / 30 Days Completed (17%)**
 
-**Next:** Transaction Module
+**Next:** Service Layer & Business Logic
+
 ---
 ## 👨‍💻 Developer
 
