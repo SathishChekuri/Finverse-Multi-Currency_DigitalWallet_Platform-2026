@@ -11,8 +11,8 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 
 - [x] Day 1 - Project Setup
 - [x] Day 2 - Database Design & User Entity
-- [ ] Day 3 - Wallet Module
-- [ ] Day 4 - Currency Management
+- [x] Day 3 - Wallet Module
+- [x] Day 4 - Currency Management
 - [ ] Day 5 - Bank Account Module
 - [ ] Day 6 - Authentication (JWT)
 - [ ] Day 7 - User APIs
@@ -205,23 +205,41 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - BigDecimal
 - Composite Unique Constraints
 - Database Normalization
+## ✅ Day 4 - Bank Account Module
+
+### Completed Tasks
+
+- Created BankAccount entity
+- Implemented One-to-Many relationship between User and BankAccount
+- Implemented Many-to-One relationship between BankAccount and User
+- Added AccountType and BankAccountStatus enums
+- Implemented Primary Bank Account support
+- Designed Add Money and Withdraw business flows
+- Added validation rules for bank account operations
+
+### Concepts Learned
+
+- One-to-Many Relationship
+- Many-to-One Relationship
+- Foreign Keys
+- Enum Mapping
+- Banking Module Design
+- Business Rule Design
 
 ### Project Status
 
 - ✅ User Module Completed
 - ✅ Wallet Module Completed
-- ✅ Multi-Currency Design Completed
-- ✅ Ready to implement Bank Account Module
-
+- ✅ Currency Module Completed
+- ✅ Bank Account Module Completed
 # 📊 Current Status
 
-**Current Phase:** Database Design & User Module
+**Current Phase:** Bank Account Module
 
-**Progress:** **2 / 30 Days Completed (7%)**
+**Progress:** **4 / 30 Days Completed (13%)**
 
-**Next:** Wallet Module & Entity Relationships
+**Next:** Transaction Module
 ---
-
 ## 👨‍💻 Developer
 
 **Sathish Chekuri**
