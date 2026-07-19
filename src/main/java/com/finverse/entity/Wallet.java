@@ -43,4 +43,8 @@ private LocalDateTime updatedAt;
         orphanRemoval = true
 )
 private List<WalletBalance> walletBalances;
+@OneToMany(mappedBy = "senderWallet")
+private List<Transaction> sentTransactions;
+@OneToMany(mappedBy = "receiverWallet")
+private List<Transaction> receivedTransactions;
 }
