@@ -225,6 +225,36 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - Enum Mapping
 - Banking Module Design
 - Business Rule Design
+<<<<<<< HEAD
+=======
+## ✅ Day 5 - Transaction Module
+
+### Completed Tasks
+
+- Created Transaction entity
+- Created TransactionType enum
+- Created TransactionStatus enum
+- Added transaction reference field
+- Implemented sender and receiver wallet relationships
+- Implemented currency relationship
+- Added transaction type and transaction status
+- Added transaction description
+- Added audit fields (createdAt & updatedAt)
+- Linked Wallet with sent and received transactions
+- Designed transaction lifecycle for Add Money, Withdraw, Transfer, Refund and Currency Conversion
+
+### Concepts Learned
+
+- Transaction Entity Design
+- Many-to-One Relationship
+- One-to-Many Relationship
+- Business Identifiers
+- Transaction Lifecycle
+- Financial Database Design
+- BigDecimal for Money
+- Enum Mapping
+- Audit Fields
+>>>>>>> a1f4cf351dd5bbc855153681bece5696d27059b0
 
 ### Project Status
 
@@ -232,6 +262,7 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - ✅ Wallet Module Completed
 - ✅ Currency Module Completed
 - ✅ Bank Account Module Completed
+<<<<<<< HEAD
 # 📊 Current Status
 
 **Current Phase:** Bank Account Module
@@ -239,6 +270,18 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 **Progress:** **4 / 30 Days Completed (13%)**
 
 **Next:** Transaction Module
+=======
+- ✅ Transaction Module Completed
+
+# 📊 Current Status
+
+**Current Phase:** Transaction Module
+
+**Progress:** **5 / 30 Days Completed (17%)**
+
+**Next:** Service Layer & Business Logic
+
+>>>>>>> a1f4cf351dd5bbc855153681bece5696d27059b0
 ---
 ## 👨‍💻 Developer
 
