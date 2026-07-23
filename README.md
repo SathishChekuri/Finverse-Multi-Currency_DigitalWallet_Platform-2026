@@ -13,9 +13,9 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - [x] Day 2 - Database Design & User Entity
 - [x] Day 3 - Wallet Module
 - [x] Day 4 - Currency Management
-- [ ] Day 5 - Bank Account Module
-- [ ] Day 6 - Authentication (JWT)
-- [ ] Day 7 - User APIs
+- [x] Day 5 - Bank Account Module
+- [x] Day 6 - Authentication (JWT)
+- [x] Day 7 - User APIs
 - [ ] Day 8 - Wallet APIs
 - [ ] Day 9 - Money Transfer
 - [ ] Day 10 - Transaction History
@@ -254,7 +254,85 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - BigDecimal for Money
 - Enum Mapping
 - Audit Fields
->>>>>>> a1f4cf351dd5bbc855153681bece5696d27059b0
+- ## ✅ Day 6 - Project Architecture & Service Layer
+
+### Completed Tasks
+
+- Created Repository Layer for all entities
+- Added custom repository methods
+- Created Service interfaces
+- Created Service implementation classes
+- Created DTO package for request and response models
+- Created Custom Exception classes
+- Created Utility classes
+- Implemented Layered Architecture
+- Added Wallet Number Generator
+- Prepared Transaction Reference Generator
+- Organized project into enterprise-level package structure
+
+### Concepts Learned
+
+- Layered Architecture
+- Repository Pattern
+- Service Layer
+- DTO (Data Transfer Object)
+- Constructor Dependency Injection
+- Custom Exceptions
+- Utility Classes
+- Separation of Concerns
+- Interface & Implementation
+- Spring Bean Management
+## ✅ Day 7 - User Registration Module
+
+### Completed Tasks
+
+- Created User Registration REST API
+- Implemented User Registration Service
+- Added BCrypt Password Encryption
+- Added Duplicate Email Validation
+- Added Duplicate Mobile Number Validation
+- Configured Spring Security for public registration endpoint
+- Automatically Created Wallet after User Registration
+- Automatically Created Default INR Wallet Balance
+- Implemented Wallet Number Generation
+- Linked User, Wallet and Wallet Balance during registration
+- Tested Registration API using Postman
+
+### Concepts Learned
+
+- REST API Development
+- BCrypt Password Hashing
+- PasswordEncoder
+- Constructor Dependency Injection
+- Business Logic Implementation
+- Automatic Resource Creation
+- Spring Security Configuration
+- Request & Response Flow
+- Postman API Testing
+- User Registration Workflow
+## ✅ Day 8 - Login & JWT Authentication
+
+### Completed Tasks
+
+- Created Login API
+- Implemented User Authentication
+- Verified Password using BCrypt
+- Generated JWT Token
+- Configured JWT Service
+- Added Token Expiration
+- Implemented Login Response DTO
+- Successfully Tested Login API using Postman
+
+### Concepts Learned
+
+- JWT (JSON Web Token)
+- Stateless Authentication
+- BCrypt Password Verification
+- PasswordEncoder.matches()
+- Authentication Flow
+- JWT Claims
+- Token Expiration
+- Secure REST API Design
 
 ### Project Status
 
@@ -262,27 +340,20 @@ Build **FinVerse** in **30 days** by implementing one module at a time while lea
 - ✅ Wallet Module Completed
 - ✅ Currency Module Completed
 - ✅ Bank Account Module Completed
-<<<<<<< HEAD
-# 📊 Current Status
-
-**Current Phase:** Bank Account Module
-
-**Progress:** **4 / 30 Days Completed (13%)**
-
-**Next:** Transaction Module
-=======
 - ✅ Transaction Module Completed
+- ✅ Repository Layer Completed
+- ✅ Service Layer Completed
+- ✅ User Registration Completed
+- ✅ Login Authentication Completed
+- ✅ JWT Generation Completed
 
 # 📊 Current Status
 
-**Current Phase:** Transaction Module
+**Current Phase:** JWT Authentication
 
-**Progress:** **5 / 30 Days Completed (17%)**
+**Progress:** **8 / 30 Days Completed (27%)**
 
-**Next:** Service Layer & Business Logic
-
->>>>>>> a1f4cf351dd5bbc855153681bece5696d27059b0
----
+**Next:** JWT Filter & Secure APIs
 ## 👨‍💻 Developer
 
 **Sathish Chekuri**
