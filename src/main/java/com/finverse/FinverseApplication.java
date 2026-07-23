@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FinverseApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FinverseApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(FinverseApplication.class, args);
+    }
 }
